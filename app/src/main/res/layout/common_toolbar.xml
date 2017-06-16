@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="88px"
+    android:background="@color/colorPrimary"
+    android:gravity="center_vertical">
+
+    <!--这里添加公共的toolbar布局,这里写一个简单的布局-->
+
+    <ImageView
+        android:id="@+id/iv_toolbar_back"
+        android:layout_width="44px"
+        android:layout_height="44px"
+        android:layout_marginLeft="20dp"
+        android:src="@mipmap/back"/>
+
+    <TextView
+        android:id="@+id/tv_toolbar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/tv_toolbar_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="12sp"/>
+
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BasicMvpFramwork</string>
+    <string name="net_show_text_error">网络不给力，请检查网络设置。</string>
+    <string name="sure">确定</string>
+</resources>
